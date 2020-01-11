@@ -34,6 +34,17 @@ Partial Class Calculator
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button40 = New System.Windows.Forms.Button()
+        Me.Button39 = New System.Windows.Forms.Button()
+        Me.Button38 = New System.Windows.Forms.Button()
+        Me.Button37 = New System.Windows.Forms.Button()
+        Me.Button36 = New System.Windows.Forms.Button()
+        Me.Button35 = New System.Windows.Forms.Button()
+        Me.Button34 = New System.Windows.Forms.Button()
+        Me.Button33 = New System.Windows.Forms.Button()
+        Me.Button32 = New System.Windows.Forms.Button()
+        Me.Button31 = New System.Windows.Forms.Button()
+        Me.Button30 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
         Me.Button23 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
@@ -57,17 +68,6 @@ Partial Class Calculator
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Button37 = New System.Windows.Forms.Button()
-        Me.Button38 = New System.Windows.Forms.Button()
-        Me.Button39 = New System.Windows.Forms.Button()
-        Me.Button40 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -214,7 +214,6 @@ Partial Class Calculator
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(349, 33)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel2
@@ -258,6 +257,148 @@ Partial Class Calculator
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(443, 391)
         Me.Panel2.TabIndex = 2
+        '
+        'Button40
+        '
+        Me.Button40.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button40.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button40.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button40.ForeColor = System.Drawing.Color.Black
+        Me.Button40.Location = New System.Drawing.Point(359, 336)
+        Me.Button40.Name = "Button40"
+        Me.Button40.Size = New System.Drawing.Size(81, 50)
+        Me.Button40.TabIndex = 33
+        Me.Button40.Text = "="
+        Me.Button40.UseVisualStyleBackColor = False
+        '
+        'Button39
+        '
+        Me.Button39.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button39.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button39.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button39.ForeColor = System.Drawing.Color.Black
+        Me.Button39.Location = New System.Drawing.Point(271, 336)
+        Me.Button39.Name = "Button39"
+        Me.Button39.Size = New System.Drawing.Size(81, 50)
+        Me.Button39.TabIndex = 25
+        Me.Button39.Text = "."
+        Me.Button39.UseVisualStyleBackColor = False
+        '
+        'Button38
+        '
+        Me.Button38.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button38.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button38.ForeColor = System.Drawing.Color.Black
+        Me.Button38.Location = New System.Drawing.Point(182, 336)
+        Me.Button38.Name = "Button38"
+        Me.Button38.Size = New System.Drawing.Size(81, 50)
+        Me.Button38.TabIndex = 32
+        Me.Button38.Text = "0"
+        Me.Button38.UseVisualStyleBackColor = True
+        '
+        'Button37
+        '
+        Me.Button37.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button37.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button37.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button37.ForeColor = System.Drawing.Color.Black
+        Me.Button37.Location = New System.Drawing.Point(93, 336)
+        Me.Button37.Name = "Button37"
+        Me.Button37.Size = New System.Drawing.Size(81, 50)
+        Me.Button37.TabIndex = 31
+        Me.Button37.Text = ")"
+        Me.Button37.UseVisualStyleBackColor = False
+        '
+        'Button36
+        '
+        Me.Button36.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button36.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button36.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button36.ForeColor = System.Drawing.Color.Black
+        Me.Button36.Location = New System.Drawing.Point(4, 336)
+        Me.Button36.Name = "Button36"
+        Me.Button36.Size = New System.Drawing.Size(81, 50)
+        Me.Button36.TabIndex = 30
+        Me.Button36.Text = "("
+        Me.Button36.UseVisualStyleBackColor = False
+        '
+        'Button35
+        '
+        Me.Button35.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button35.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button35.ForeColor = System.Drawing.Color.Black
+        Me.Button35.Location = New System.Drawing.Point(359, 282)
+        Me.Button35.Name = "Button35"
+        Me.Button35.Size = New System.Drawing.Size(81, 50)
+        Me.Button35.TabIndex = 29
+        Me.Button35.Text = "+"
+        Me.Button35.UseVisualStyleBackColor = False
+        '
+        'Button34
+        '
+        Me.Button34.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button34.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button34.ForeColor = System.Drawing.Color.Black
+        Me.Button34.Location = New System.Drawing.Point(359, 227)
+        Me.Button34.Name = "Button34"
+        Me.Button34.Size = New System.Drawing.Size(81, 49)
+        Me.Button34.TabIndex = 28
+        Me.Button34.Text = "-"
+        Me.Button34.UseVisualStyleBackColor = False
+        '
+        'Button33
+        '
+        Me.Button33.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button33.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button33.ForeColor = System.Drawing.Color.Black
+        Me.Button33.Location = New System.Drawing.Point(359, 171)
+        Me.Button33.Name = "Button33"
+        Me.Button33.Size = New System.Drawing.Size(81, 50)
+        Me.Button33.TabIndex = 27
+        Me.Button33.Text = "×"
+        Me.Button33.UseVisualStyleBackColor = False
+        '
+        'Button32
+        '
+        Me.Button32.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button32.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button32.ForeColor = System.Drawing.Color.Black
+        Me.Button32.Location = New System.Drawing.Point(359, 115)
+        Me.Button32.Name = "Button32"
+        Me.Button32.Size = New System.Drawing.Size(81, 50)
+        Me.Button32.TabIndex = 26
+        Me.Button32.Text = "÷"
+        Me.Button32.UseVisualStyleBackColor = False
+        '
+        'Button31
+        '
+        Me.Button31.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button31.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button31.ForeColor = System.Drawing.Color.Black
+        Me.Button31.Location = New System.Drawing.Point(359, 59)
+        Me.Button31.Name = "Button31"
+        Me.Button31.Size = New System.Drawing.Size(81, 50)
+        Me.Button31.TabIndex = 25
+        Me.Button31.Text = "mod"
+        Me.Button31.UseVisualStyleBackColor = False
+        '
+        'Button30
+        '
+        Me.Button30.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button30.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button30.ForeColor = System.Drawing.Color.Black
+        Me.Button30.Location = New System.Drawing.Point(359, 3)
+        Me.Button30.Name = "Button30"
+        Me.Button30.Size = New System.Drawing.Size(81, 50)
+        Me.Button30.TabIndex = 24
+        Me.Button30.Text = "tan"
+        Me.Button30.UseVisualStyleBackColor = False
         '
         'Button24
         '
@@ -594,148 +735,6 @@ Partial Class Calculator
         Me.Button2.TabStop = False
         Me.Button2.Text = "√"
         Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button30
-        '
-        Me.Button30.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button30.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button30.ForeColor = System.Drawing.Color.Black
-        Me.Button30.Location = New System.Drawing.Point(359, 3)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(81, 50)
-        Me.Button30.TabIndex = 24
-        Me.Button30.Text = "tan"
-        Me.Button30.UseVisualStyleBackColor = False
-        '
-        'Button31
-        '
-        Me.Button31.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button31.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button31.ForeColor = System.Drawing.Color.Black
-        Me.Button31.Location = New System.Drawing.Point(359, 59)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(81, 50)
-        Me.Button31.TabIndex = 25
-        Me.Button31.Text = "mod"
-        Me.Button31.UseVisualStyleBackColor = False
-        '
-        'Button32
-        '
-        Me.Button32.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button32.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.ForeColor = System.Drawing.Color.Black
-        Me.Button32.Location = New System.Drawing.Point(359, 115)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(81, 50)
-        Me.Button32.TabIndex = 26
-        Me.Button32.Text = "÷"
-        Me.Button32.UseVisualStyleBackColor = False
-        '
-        'Button33
-        '
-        Me.Button33.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button33.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button33.ForeColor = System.Drawing.Color.Black
-        Me.Button33.Location = New System.Drawing.Point(359, 171)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(81, 50)
-        Me.Button33.TabIndex = 27
-        Me.Button33.Text = "×"
-        Me.Button33.UseVisualStyleBackColor = False
-        '
-        'Button34
-        '
-        Me.Button34.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button34.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button34.ForeColor = System.Drawing.Color.Black
-        Me.Button34.Location = New System.Drawing.Point(359, 227)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(81, 49)
-        Me.Button34.TabIndex = 28
-        Me.Button34.Text = "-"
-        Me.Button34.UseVisualStyleBackColor = False
-        '
-        'Button35
-        '
-        Me.Button35.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button35.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.ForeColor = System.Drawing.Color.Black
-        Me.Button35.Location = New System.Drawing.Point(359, 282)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(81, 50)
-        Me.Button35.TabIndex = 29
-        Me.Button35.Text = "+"
-        Me.Button35.UseVisualStyleBackColor = False
-        '
-        'Button36
-        '
-        Me.Button36.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button36.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button36.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button36.ForeColor = System.Drawing.Color.Black
-        Me.Button36.Location = New System.Drawing.Point(4, 336)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(81, 50)
-        Me.Button36.TabIndex = 30
-        Me.Button36.Text = "("
-        Me.Button36.UseVisualStyleBackColor = False
-        '
-        'Button37
-        '
-        Me.Button37.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button37.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button37.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button37.ForeColor = System.Drawing.Color.Black
-        Me.Button37.Location = New System.Drawing.Point(93, 336)
-        Me.Button37.Name = "Button37"
-        Me.Button37.Size = New System.Drawing.Size(81, 50)
-        Me.Button37.TabIndex = 31
-        Me.Button37.Text = ")"
-        Me.Button37.UseVisualStyleBackColor = False
-        '
-        'Button38
-        '
-        Me.Button38.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button38.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button38.ForeColor = System.Drawing.Color.Black
-        Me.Button38.Location = New System.Drawing.Point(182, 336)
-        Me.Button38.Name = "Button38"
-        Me.Button38.Size = New System.Drawing.Size(81, 50)
-        Me.Button38.TabIndex = 32
-        Me.Button38.Text = "0"
-        Me.Button38.UseVisualStyleBackColor = True
-        '
-        'Button39
-        '
-        Me.Button39.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button39.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button39.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button39.ForeColor = System.Drawing.Color.Black
-        Me.Button39.Location = New System.Drawing.Point(271, 336)
-        Me.Button39.Name = "Button39"
-        Me.Button39.Size = New System.Drawing.Size(81, 50)
-        Me.Button39.TabIndex = 25
-        Me.Button39.Text = "."
-        Me.Button39.UseVisualStyleBackColor = False
-        '
-        'Button40
-        '
-        Me.Button40.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button40.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button40.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button40.ForeColor = System.Drawing.Color.Black
-        Me.Button40.Location = New System.Drawing.Point(359, 336)
-        Me.Button40.Name = "Button40"
-        Me.Button40.Size = New System.Drawing.Size(81, 50)
-        Me.Button40.TabIndex = 33
-        Me.Button40.Text = "="
-        Me.Button40.UseVisualStyleBackColor = False
         '
         'Calculator
         '
